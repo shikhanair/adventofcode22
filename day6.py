@@ -4,8 +4,8 @@ if __name__ == '__main__':
     for i in range(len(data)):
         if len(set(data[i:i+4])) == 4:
             print(i + 4)
-            break;
+            break
     for i in range(len(data)):
         if len(set(data[i:i+14])) == 14:
             print(i + 14)
-            break;
+            break
